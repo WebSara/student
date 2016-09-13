@@ -1,0 +1,12 @@
+nav ul {
+    border: solid 1px #888;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    background-color: #ccc;
+    padding: 2px 5px;
+}

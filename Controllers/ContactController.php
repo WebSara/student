@@ -1,6 +1,6 @@
 <?php
 include('models/view.php');
-class IndexController extends View{
+class ContactController extends View{
     public $request = null;
     public $layout = array();
     
@@ -9,7 +9,7 @@ class IndexController extends View{
         
     }
     public function index(){
-        return $this->view->render('index');
+        return $this->view->render('contact');
               
         
     }
